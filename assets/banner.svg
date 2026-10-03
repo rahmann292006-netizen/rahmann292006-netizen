@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Abdul Rahman, Generative AI engineer in progress">
+<defs>
+<radialGradient id="glow"><stop offset="0" stop-color="#fff" stop-opacity=".16"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+<linearGradient id="ring" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<filter id="soft"><feGaussianBlur stdDeviation="5"/></filter>
+</defs>
+<rect width="1200" height="320" fill="#000"/>
+<rect x="22" y="22" width="1156" height="276" fill="none" stroke="#fff" stroke-opacity=".2"/>
+<g fill="#fff">
+<circle cx="110" cy="52" r="1.2"><animate attributeName="opacity" values="1;.2;1" dur="3s" repeatCount="indefinite"/></circle>
+<circle cx="380" cy="270" r="1"><animate attributeName="opacity" values=".2;1;.2" dur="2.6s" repeatCount="indefinite"/></circle>
+<circle cx="540" cy="60" r="1.4"><animate attributeName="opacity" values="1;.3;1" dur="3.6s" repeatCount="indefinite"/></circle>
+<circle cx="660" cy="250" r="1"><animate attributeName="opacity" values=".3;1;.3" dur="2.8s" repeatCount="indefinite"/></circle>
+<circle cx="740" cy="90" r="1.2"><animate attributeName="opacity" values="1;.2;1" dur="3.2s" repeatCount="indefinite"/></circle>
+<circle cx="820" cy="280" r="1"><animate attributeName="opacity" values=".2;1;.2" dur="2.4s" repeatCount="indefinite"/></circle>
+<circle cx="900" cy="48" r="1.3"><animate attributeName="opacity" values="1;.3;1" dur="3.4s" repeatCount="indefinite"/></circle>
+<circle cx="1150" cy="60" r="1"><animate attributeName="opacity" values=".3;1;.3" dur="2.9s" repeatCount="indefinite"/></circle>
+<circle cx="1140" cy="270" r="1.2"><animate attributeName="opacity" values="1;.2;1" dur="3.1s" repeatCount="indefinite"/></circle>
+<circle cx="60" cy="200" r="1"><animate attributeName="opacity" values=".2;1;.2" dur="2.7s" repeatCount="indefinite"/></circle>
+</g>
+<g transform="translate(985 160)">
+<circle r="170" fill="url(#glow)"/>
+<g transform="rotate(-16)">
+<ellipse rx="170" ry="36" fill="none" stroke="url(#ring)" stroke-width="12" opacity=".35" filter="url(#soft)"/>
+<ellipse rx="170" ry="36" fill="none" stroke="url(#ring)" stroke-width="2.5" stroke-dasharray="60 16"><animate attributeName="stroke-dashoffset" from="0" to="-152" dur="8s" repeatCount="indefinite"/></ellipse>
+<ellipse rx="130" ry="26" fill="none" stroke="#fff" stroke-opacity=".5" stroke-width="1" stroke-dasharray="3 9"><animate attributeName="stroke-dashoffset" from="0" to="48" dur="4s" repeatCount="indefinite"/></ellipse>
+</g>
+<circle r="50" fill="#000" stroke="#fff" stroke-opacity=".7" stroke-width="1.5"/>
+</g>
+<g font-family="Georgia, 'Times New Roman', serif">
+<text x="78" y="98" font-size="19" font-style="italic" fill="#8a8a8a" opacity="0">A story in progress<animate attributeName="opacity" from="0" to="1" dur="1s" begin=".1s" fill="freeze"/></text>
+<text x="76" y="178" font-size="88" fill="#fff" letter-spacing="-2" opacity="0"><tspan font-style="italic" font-weight="400">Abdul</tspan> <tspan font-weight="700">Rahman</tspan><animate attributeName="opacity" from="0" to="1" dur="1.1s" begin=".3s" fill="freeze"/></text>
+<rect x="80" y="200" width="0" height="2" fill="#fff"><animate attributeName="width" from="0" to="180" dur="1s" begin="1.1s" fill="freeze"/></rect>
+<text x="78" y="244" font-size="27" fill="#d6d6d6" opacity="0">Generative AI engineer, in progress.<animate attributeName="opacity" from="0" to="1" dur="1s" begin="1.4s" fill="freeze"/></text>
+<text x="80" y="276" font-size="15" fill="#8a8a8a" letter-spacing="3" opacity="0">PYTHON   /   MACHINE LEARNING   /   GENERATIVE AI<animate attributeName="opacity" from="0" to="1" dur="1s" begin="1.8s" fill="freeze"/></text>
+</g>
+</svg>
